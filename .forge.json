@@ -1,0 +1,28 @@
+{
+  "name": "stubfrac",
+  "tagline": "Day-count fractions with irregular stubs in exact rationals, plus a map of where conventions disagree",
+  "language": "rust",
+  "topics": [
+    "fixed-income",
+    "day-count",
+    "bonds",
+    "rust",
+    "exact-arithmetic",
+    "isda"
+  ],
+  "trendOrigin": "Trend 4 (EU opening a door to Canada). Joining two markets means reconciling conventions that look alike but aren't: Canada's 'ACT/365 Canadian Bond' rule and Europe's 30E/360 vs 30E/360 ISDA are known traps when desks integrate. The project makes those differences explicit and testable.",
+  "gate": {
+    "stats": {
+      "sourceFiles": 12,
+      "testFiles": 8,
+      "testCases": 42,
+      "assertions": 152,
+      "readmeWords": 2997,
+      "testsPassed": true,
+      "lintPassed": true,
+      "entryPointRuns": true
+    },
+    "warnings": []
+  },
+  "generatedAt": "2026-09-16T20:54:48.670Z"
+}
