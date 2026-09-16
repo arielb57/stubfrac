@@ -1,0 +1,18 @@
+[package]
+name = "stubfrac"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Day-count year fractions as exact rationals, with irregular ICMA stubs, the Canadian bond rule, and a map of where conventions disagree"
+license = "MIT"
+readme = "README.md"
+keywords = ["finance", "day-count", "bonds", "accrued-interest", "rational"]
+categories = ["finance", "date-and-time", "command-line-utilities"]
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+
+[profile.test]
+opt-level = 2
